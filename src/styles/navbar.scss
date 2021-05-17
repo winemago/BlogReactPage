@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 5em;
+    margin: auto;
+    border-bottom: 1px outset;
+    .logo{
+        margin: 4em;
+        color: palevioletred;
+    }
+    .navlinks{
+        display: flex;
+        list-style-type: none;
+
+        a{  
+            color: orange;
+            text-decoration: none;
+            margin: 4em;
+        }
+    }
+}
