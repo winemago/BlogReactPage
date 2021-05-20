@@ -4,4 +4,17 @@
   height: 100ch;
   padding: 4em;
 }
+
+.blog-preview {
+  padding: 1.5em;
+}
+
+.blog-preview h2 {
+  color: #507dbcff;
+}
+
+.blog-preview:hover {
+  -webkit-box-shadow: 1px 3px 5px #bbd1eaff;
+          box-shadow: 1px 3px 5px #bbd1eaff;
+}
 /*# sourceMappingURL=home.css.map */

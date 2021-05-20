@@ -16,7 +16,7 @@
 
 .navbar .logo {
   margin: 4em;
-  color: palevioletred;
+  color: #507dbcff;
 }
 
 .navbar .navlinks {
@@ -27,7 +27,8 @@
 }
 
 .navbar .navlinks a {
-  color: orange;
+  color: #a1c6eaff;
+  font-weight: bold;
   text-decoration: none;
   margin: 4em;
 }

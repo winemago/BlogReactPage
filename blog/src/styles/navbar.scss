@@ -1,3 +1,5 @@
+@import "colors";
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -6,16 +8,18 @@
     height: 5em;
     margin: auto;
     border-bottom: 1px outset;
+
     .logo{
         margin: 4em;
-        color: palevioletred;
+        color: $glaucous;
     }
     .navlinks{
         display: flex;
         list-style-type: none;
 
         a{  
-            color: orange;
+            color: $baby-blue-eyes;
+            font-weight: bold;
             text-decoration: none;
             margin: 4em;
         }
