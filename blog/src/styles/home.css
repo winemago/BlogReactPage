@@ -5,15 +5,36 @@
   padding: 4em;
 }
 
-.blog-preview {
+.home .blog-owner {
+  color: #04080fff;
+  padding: .6em 0;
+}
+
+.home .blog-preview {
   padding: 1.5em;
 }
 
-.blog-preview h2 {
+.home .blog-preview h2 {
   color: #507dbcff;
 }
 
-.blog-preview:hover {
+.home .blog-preview button {
+  margin: .7em;
+  padding: .4em;
+  padding-inline: .7em;
+  background-color: #dae3e5ff;
+  color: #04080fff;
+  border-radius: 15%;
+  border-style: none;
+  cursor: pointer;
+}
+
+.home .blog-preview button:hover {
+  background-color: #507dbcff;
+  color: #dae3e5ff;
+}
+
+.home .blog-preview:hover {
   -webkit-box-shadow: 1px 3px 5px #bbd1eaff;
           box-shadow: 1px 3px 5px #bbd1eaff;
 }

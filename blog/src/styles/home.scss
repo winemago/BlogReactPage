@@ -5,16 +5,38 @@
     margin: auto;
     height: 100ch;
     padding: 4em;
-}
+    
+    .blog-owner{
+        color: $rich-black-fogra-29;
+        padding: .6em 0;
+    }
 
-.blog-preview{
+    .blog-preview{
     padding: 1.5em;
 
     h2{
         color: $glaucous;
     }
 
+    button{
+        margin: .7em;
+        padding: .4em;
+        padding-inline: .7em;
+        background-color: $gainsboro;
+        color: $rich-black-fogra-29;
+        border-radius: 15%;
+        border-style: none;
+        cursor: pointer;
+
+        &:hover{
+            background-color: $glaucous;
+            color: $gainsboro;
+        }
+    }
+
     &:hover{
         box-shadow: 1px 3px 5px $beau-blue;
     }
 }
+}
+
