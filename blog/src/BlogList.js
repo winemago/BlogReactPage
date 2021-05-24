@@ -10,7 +10,6 @@ const BlogList = (props) => {     // or we can pass directly: ({blogs,title,hand
         <div className="blog-preview" key={blog.id}>
           <h2>{blog.title}</h2>
           <p>Written by {blog.author}</p>
-					<button onClick={() => props.handleDelete(blog.id)}>Delete</button>
         </div>
       ))}
 			

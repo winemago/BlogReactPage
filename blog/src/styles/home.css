@@ -19,12 +19,12 @@
 }
 
 .home .blog-preview button {
-  margin: .7em;
+  margin-top: .7em;
   padding: .4em;
   padding-inline: .7em;
   background-color: #dae3e5ff;
   color: #04080fff;
-  border-radius: 15%;
+  border-radius: .8em;
   border-style: none;
   cursor: pointer;
 }
