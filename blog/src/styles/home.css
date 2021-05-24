@@ -18,6 +18,10 @@
   color: #507dbcff;
 }
 
+.home .blog-preview a {
+  text-decoration: none;
+}
+
 .home .blog-preview button {
   margin-top: .7em;
   padding: .4em;
