@@ -1,0 +1,51 @@
+@import "colors";
+
+.create{
+    width: 90%;
+    margin: auto;
+    padding: 4em;
+    text-align: center;
+
+    h2{
+        padding-bottom: 1em;
+        color: $glaucous;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: auto;
+        
+        label{
+            padding: .6em;
+            padding-top: 1.6rem;
+            text-align: left;
+            color: $rich-black-fogra-29;
+            font-weight: bolder;
+        }
+
+        input, textarea, select{
+            padding: 6px 10px;
+            border-radius: 1em;
+            border: 2px solid $baby-blue-eyes;
+            outline: none;
+        }
+        button{
+            width: 100px;
+            margin:auto;
+            margin-top: 2em;
+            padding: 7px 10px;
+            border: none;
+            border-radius: 1em;
+            background-color: $glaucous;
+            color: $gainsboro;
+            cursor: pointer;
+
+            &:hover{
+                background-color: $beau-blue;
+                color: $rich-black-fogra-29;
+            }
+        }
+    }
+}

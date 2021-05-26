@@ -11,7 +11,12 @@
 
     .logo{
         margin: 4em;
-        color: $glaucous;
+        a{
+            text-decoration: none;
+            color: $glaucous;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
     }
     .navlinks{
         display: flex;

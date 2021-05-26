@@ -1,0 +1,36 @@
+.blog-details {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.blog-details h2 {
+  color: #507dbcff;
+  text-align: center;
+  padding: 2em 2em .7em 2em;
+  border-bottom: 1px solid;
+}
+
+.blog-details p {
+  padding-top: 1.5em;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.blog-details button {
+  width: 70px;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 2em;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 1em;
+  background-color: #507dbcff;
+  color: #dae3e5ff;
+  cursor: pointer;
+}
+
+.blog-details button:hover {
+  background-color: #f05050;
+  color: #04080fff;
+}
+/*# sourceMappingURL=blog-details.css.map */

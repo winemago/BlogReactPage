@@ -1,0 +1,35 @@
+@import "colors";
+
+.blog-details{
+    max-width: 600px;
+    margin: 0 auto;
+
+    h2{
+        color: $glaucous;
+        text-align: center;
+        padding: 2em 2em .7em 2em;
+        border-bottom: 1px solid;
+    }
+    p{
+        padding-top: 1.5em;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    button{
+        width: 70px;
+        font-weight: bold;
+        margin:auto;
+        margin-top: 2em;
+        padding: 7px 10px;
+        border: none;
+        border-radius: 1em;
+        background-color: $glaucous;
+        color: $gainsboro;
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgb(240, 80, 80);
+            color: $rich-black-fogra-29;
+        }
+    }
+}

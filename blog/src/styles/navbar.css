@@ -16,7 +16,13 @@
 
 .navbar .logo {
   margin: 4em;
+}
+
+.navbar .logo a {
+  text-decoration: none;
   color: #507dbcff;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 .navbar .navlinks {

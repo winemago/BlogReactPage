@@ -1,0 +1,56 @@
+.create {
+  width: 90%;
+  margin: auto;
+  padding: 4em;
+  text-align: center;
+}
+
+.create h2 {
+  padding-bottom: 1em;
+  color: #507dbcff;
+}
+
+.create form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+
+.create form label {
+  padding: .6em;
+  padding-top: 1.6rem;
+  text-align: left;
+  color: #04080fff;
+  font-weight: bolder;
+}
+
+.create form input, .create form textarea, .create form select {
+  padding: 6px 10px;
+  border-radius: 1em;
+  border: 2px solid #a1c6eaff;
+  outline: none;
+}
+
+.create form button {
+  width: 100px;
+  margin: auto;
+  margin-top: 2em;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 1em;
+  background-color: #507dbcff;
+  color: #dae3e5ff;
+  cursor: pointer;
+}
+
+.create form button:hover {
+  background-color: #bbd1eaff;
+  color: #04080fff;
+}
+/*# sourceMappingURL=create.css.map */
